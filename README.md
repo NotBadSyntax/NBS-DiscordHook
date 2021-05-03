@@ -1,4 +1,4 @@
-# PvPCraft Discord Webhook
+# NBS Discord Webhook
 This GitHub Action can produce fancy and more meaningful discord messages for your commits.
 <br>It includes Test results and coverage.
 
@@ -39,12 +39,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v1
-    - name: Set up JDK 1.8
-      uses: actions/setup-java@master
-      with:
-        java-version: 1.8
     - name: Run Discord Webhook
-      uses: Vladimir-Urik/pc-discord-webhook@master
+      uses: NotBadSyntax/NBS-DiscordHook@master
       with:
         id: ${{ secrets.YOUR_DISCORD_WEBHOOK_ID }}
         token: ${{ secrets.YOUR_DISCORD_WEBHOOK_TOKEN }}
