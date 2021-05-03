@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pc-discord-webhook.iml" filepath="$PROJECT_DIR$/.idea/pc-discord-webhook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NBS-DiscordHook.iml" filepath="$PROJECT_DIR$/.idea/NBS-DiscordHook.iml" />
     </modules>
   </component>
 </project>
