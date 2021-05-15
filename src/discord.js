@@ -15,6 +15,7 @@ module.exports.send = (id, token, repo, branch, url, commits, size) => new Promi
     client.send(createEmbed(repo, branch, url, commits, size)).then(() => {
         console.log("Successfully sent the message!");
         resolve();
+        process.exit(0);
     }, reject);
 });
 
